@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wassimelkhatib.github.io/sitemap.xml
