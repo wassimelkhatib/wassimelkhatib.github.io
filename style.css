@@ -1,14 +1,14 @@
 :root{
-  --bg:#faf8f4; --surface:#ffffff; --ink:#1f2a33; --muted:#5d6b76; --line:#e4dfd6;
-  --accent:#1f5f5b; --accent-ink:#ffffff; --accent-soft:#e3f0ee; --gold:#a9772c;
+  --bg:#faf9f5; --surface:#ffffff; --ink:#1f2a33; --muted:#5d6b76; --line:#e2ded4;
+  --accent:#1b2f57; --accent-ink:#ffffff; --accent-soft:#e8edf6; --gold:#a8782a;
   --radius:12px; --maxw:1040px;
   --serif:Georgia,"Times New Roman",serif;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --bg:#12181c; --surface:#192127; --ink:#e8ecee; --muted:#9fb0ba; --line:#2a353d;
-    --accent:#6cc1b9; --accent-ink:#0d1a19; --accent-soft:#1b2d2c; --gold:#d6a85a;
+    --bg:#11151d; --surface:#171d28; --ink:#e8ecf2; --muted:#9fb0c6; --line:#28313f;
+    --accent:#8fb0e6; --accent-ink:#0d1626; --accent-soft:#1a2540; --gold:#d9ad5c;
   }
 }
 *{box-sizing:border-box}
