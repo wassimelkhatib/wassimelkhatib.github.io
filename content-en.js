@@ -215,4 +215,7 @@
     en(S.news[0].title, "Chapter published on forty years of assessment in Lebanon");
     en(S.news[0].text, "Co-authored with Patricia Azoury, in Évaluation en éducation et formation : Ancrages et perspectives (Les Presses de l’ADMEE).");
   }
-})();
+if (S.news && S.news[1]) {
+  en(S.news[1].title, "ADMEE-Lebanon National Day – December 5, 2026");
+  en(S.news[1].text, "The Lebanese section of ADMEE-Europe will hold its National Day on Saturday, December 5, 2026, from 9:00 am to 1:00 pm, at the Jean El Hawa Auditorium, Holy Spirit University of Kaslik (USEK). The theme is: “Rethinking feedback in the age of generative AI: a complex equation to solve”. I am delighted to take part in organizing it, in collaboration with the Institut français du Liban.");
+}})();
