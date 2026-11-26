@@ -352,6 +352,17 @@ window.SITE = {
   /* Exemple :
      { date: "2026-11-02", title: { fr: "Titre", ar: "العنوان" }, text: { fr: "…", ar: "…" } } */
   news: [
-    { date: "2026-01", title: { fr: "Parution d’un chapitre sur quarante ans d’évolution de l’évaluation au Liban", ar: "صدور فصل حول أربعين عامًا من تطوّر التقويم في لبنان" }, text: { fr: "Avec Patricia Azoury, dans Évaluation en éducation et formation : Ancrages et perspectives (Les Presses de l’ADMEE).", ar: "بالاشتراك مع باتريسيا عزوري، في كتاب «التقويم في التربية والتكوين: ركائز وآفاق» (منشورات ADMEE)." } }
+    { date: "2026-01", title: { fr: "Parution d’un chapitre sur quarante ans d’évolution de l’évaluation au Liban", ar: "صدور فصل حول أربعين عامًا من تطوّر التقويم في لبنان" }, text: { fr: "Avec Patricia Azoury, dans Évaluation en éducation et formation : Ancrages et perspectives (Les Presses de l’ADMEE).", ar: "بالاشتراك مع باتريسيا عزوري، في كتاب «التقويم في التربية والتكوين: ركائز وآفاق» (منشورات ADMEE)." } },
+,{
+  date: "2026-11",
+  title: {
+    fr: "Journée nationale de l’ADMEE-Liban – 5 décembre 2026",
+    ar: "اللقاء العلمي السنوي للفرع اللبناني في ADMEE-Europe – 5 كانون الأول (ديسمبر) 2026"
+  },
+  text: {
+    fr: "La section libanaise de l’ADMEE-Europe tiendra sa Journée nationale le samedi 5 décembre 2026, de 9 h à 13 h, à l’Auditorium Jean El Hawa de l’Université Saint-Esprit de Kaslik (USEK), sur le thème « Penser les feedbacks à l’ère de l’IA générative : une équation complexe à résoudre ». Je suis heureux de participer à son organisation, en collaboration avec l’Institut français du Liban.",
+    ar: "يُقام اللقاء العلمي السنوي للفرع اللبناني في ADMEE-Europe يوم السبت 5 كانون الأول (ديسمبر) 2026، من الساعة 9:00 إلى 13:00، في قاعة جان الحوّا في جامعة الروح القدس – الكسليك (USEK)، حول موضوع: «التفكير في التغذية الراجعة في عصر الذكاء الاصطناعي التوليدي: معادلة معقّدة تنتظر الحلّ». يسعدني أن أشارك في تنظيمه، بالتعاون مع المعهد الفرنسي في لبنان."
+  }
+}
   ]
 };
