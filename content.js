@@ -355,7 +355,7 @@ window.SITE = {
     { date: "2026-01", title: { fr: "Parution d’un chapitre sur quarante ans d’évolution de l’évaluation au Liban", ar: "صدور فصل حول أربعين عامًا من تطوّر التقويم في لبنان" }, text: { fr: "Avec Patricia Azoury, dans Évaluation en éducation et formation : Ancrages et perspectives (Les Presses de l’ADMEE).", ar: "بالاشتراك مع باتريسيا عزوري، في كتاب «التقويم في التربية والتكوين: ركائز وآفاق» (منشورات ADMEE)." } },
 {
   date: "2026-11",
-   "carte-journee-nationale-2026.jpg",
+image: "carte-journee-nationale-2026.jpg",
   title: {
     fr: "Journée nationale de l’ADMEE-Liban – 5 décembre 2026",
     ar: "اللقاء العلمي السنوي للفرع اللبناني في ADMEE-Europe – 5 كانون الأول (ديسمبر) 2026"
