@@ -91,9 +91,7 @@
 
     if (S.news && S.news.length) {
       h += '<section id="news"><div class="wrap"><h2>' + esc(U.news) + "</h2>" + S.news.map(function (n) {
-        return '<div class="talk"><div class="y">' + esc(n.date) + "</div><div><h3>" + esc(t(n.title)) + "</h3><div class='m'>" + esc(t(n.text)) + "</div></div></div>";
-      }).join("") + "</div></section>";
-    }
+       return '<div class="talk"><div class="y">' + esc(n.date) + "</div><div><h3>" + esc(t(n.title)) + "</h3><div class='m'>" + esc(t(n.text)) + "</div>" + (n.image ? '<a href="' + esc(n.image) + '" target="_blank" rel="noopener"><img src="' + esc(n.image) + '" alt="' + esc(t(n.title)) + '" loading="lazy" style="max-width:340px;width:100%;height:auto;margin-top:12px;border-radius:6px;border:1px solid #ddd"></a>' : "") + "</div></div>";
 
     var L = S.links, names = { academia: "Academia", orcid: "ORCID", googleScholar: "Google Scholar", hal: "HAL", researchGate: "ResearchGate", linkedin: "LinkedIn", facebook: "Facebook" };
     var prof = Object.keys(names).filter(function (k) { return L[k]; }).map(function (k) { return '<a href="' + esc(L[k]) + '" rel="me noopener" target="_blank">' + names[k] + "</a>"; }).join("");
